@@ -45,6 +45,3 @@ The project consists of two main parts:
   - `/nick [new-nickname]` – change the current nickname.
   - `/list` – list all available channels.
 - **Networking**: The server uses **TCP sockets** to communicate with clients, and the server should be able to handle multiple simultaneous connections using **select** or **epoll**.
-
-## Installation
-1. Clone the repository:
